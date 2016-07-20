@@ -13,7 +13,7 @@ public class TelegramConversationTest implements Listener {
     }
 
     public static void main(String[] args) {
-        TelegramBot bot = TelegramBot.login("188501186:AAHmx_H8A-f-2zL33KGqx4o00gCAT4t2dG4");
+        TelegramBot bot = TelegramBot.login("nice one");
         bot.getEventsManager().register(new TelegramConversationTest(bot));
         bot.startUpdates(false);
     }
